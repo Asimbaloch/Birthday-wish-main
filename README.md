@@ -45,7 +45,7 @@ To know more about the environment variables, check [References](#references).
 
 2. Install dependencies:
 
-   ```sh
+   ```
    npm install
    ```
 
