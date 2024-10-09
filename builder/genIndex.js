@@ -26,7 +26,7 @@ const genIndex = function (markup) {
     .replace("{{^NAME}}", process.env.NAME)
     .replace("{{^NICKNAME}}", process.env.NICKNAME || process.env.NAME);
 
-  fs.writeFileSync(path.join(__dirname, "../src/index.html"), html, {
+  fs.writeFileSync(path.join(__dirname, "../index.html"), html, {
     encoding: "utf-8",
   });
   console.log("Index Generated");
